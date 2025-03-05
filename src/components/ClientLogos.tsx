@@ -16,29 +16,21 @@ const ClientLogos = () => {
     <section className="w-full py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
-        <h2 className="text-center text-[#475467] text-xl sm:text-2xl font-normal mb-16 max-w-3xl mx-auto">
+        <h2 className="text-center text-[#475467] text-xl sm:text-2xl font-normal mb-7 max-w-3xl mx-auto">
           Join 400+ companies that trust our innovative IT solutions to drive growth and success.
         </h2>
 
         {/* Logo Container */}
-        <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-8 lg:flex-nowrap lg:justify-between">
+        <div className="flex flex-wrap justify-center items-center gap-x-20 gap-y-3 lg:flex-nowrap lg:justify-between">
           {clients.map((client) => (
-            <div
-              key={client.id}
-              className="flex items-center space-x-3"
-            >
-              <div className="relative w-8 h-8 sm:w-10 sm:h-10">
-                <Image
-                  src={client.logo}
-                  alt={`${client.name} logo`}
-                  fill
-                  className="object-contain"
-                  sizes="(max-width: 768px) 32px, 40px"
-                />
-              </div>
-              <span className="text-[#475467] text-base sm:text-lg font-medium">
-                {client.name}
-              </span>
+            <div key={client.id} className="relative w-24 h-24 sm:w-32 sm:h-32">
+              <Image
+                src={client.logo}
+                alt={`${client.name} logo`}
+                fill
+                className="object-contain"
+                sizes="(max-width: 768px) 96px, 128px"
+              />
             </div>
           ))}
         </div>
