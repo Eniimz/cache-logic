@@ -12,11 +12,11 @@ const FeaturesSection = () => {
                 <div className="self-center px-3 py-1 text-sm font-normal leading-4 text-[#414EC6] bg-[#F5F5FF] border border-[#D7DEFE] rounded-2xl">
                   Our Services
                 </div>
-                <h2 className="mt-4 text-4xl font-semibold leading-tight tracking-[-0.72px] text-[#101828] md:max-w-full">
+                <h2 className="mt-4 text-4xl font-semibold font-sans leading-tight tracking-[-0.72px] text-[#101828] md:max-w-full">
                   Services We Offer
                 </h2>
               </div>
-              <p className="mt-5 text-xl font-normal leading-[30px] text-[#475467] md:max-w-full">
+              <p className="mt-5 text-xl leading-[30px] text-[#475467] md:max-w-full">
                 Powerful, self-serve product and growth analytics to help you
                 convert, engage, and retain more users.
               </p>
