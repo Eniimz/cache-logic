@@ -15,7 +15,7 @@ const ContactSections = () => {
                 We are WORLDWIDE
               </h2>
             </div>
-            <p className="mt-5 text-xl font-normal text-[#475467] md:max-w-full">
+            <p className="mt-5 text-md md:text-xl font-normal text-[#475467] md:max-w-full mx-5">
               We help our clients from almost every part of the world.
             </p>
           </div>
