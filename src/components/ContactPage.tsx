@@ -4,7 +4,7 @@ import React from "react";
 const ContactPage = () => {
   return (
     <section className="flex flex-col items-center justify-start py-24 bg-white overflow-hidden w-full">
-      <div className="w-full max-w-[1280px] px-8 font-sans md:px-5">
+      <div className="w-full max-w-[1480px] px-8 font-sans md:px-5">
         <div className="flex flex-col items-start justify-start w-full">
           <div className="w-full max-w-[900px] text-left">
             <div className="flex flex-col items-start justify-start w-full">
@@ -23,7 +23,7 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap mt-16 w-full max-w-[1280px] px-8 items-start gap-24 justify-between md:px-5 md:mt-10 md:gap-16">
+      <div className="flex flex-wrap mt-16 w-full max-w-[1480px] px-8 items-start gap-24 justify-between md:px-5 md:mt-10 md:gap-16">
         {/* Contact Information Section */}
         <div className="flex-1 flex-shrink min-w-[300px] max-w-[520px] font-sans">
           <div className="flex flex-wrap w-full items-start gap-12 justify-start">
